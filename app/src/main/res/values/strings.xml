@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PraAssesment1</string>
+    <string name="menu_about">About</string>
+    <string name="nama_about">Paulus Agata Suryonugroho</string>
+    <string name="nim_about">6706184033</string>
+    <string name="kelas_about">D3RPLA-42-02</string>
+    <string name="panjang_text">Panjang</string>
+    <string name="lebar_text">Lebar</string>
+    <string name="alas_text">Alas</string>
+    <string name="tinggi_text">Tinggi</string>
+    <string name="persegi_hasil">Hasil</string>
+    <string name="segitiga_hasil">Hasil</string>
+    <string name="luassgt">Luas :</string>
+    <string name="kelilingsgt">Keliling :</string>
+    <string name="share">Share</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="persegipanjang">Persegi Panjang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

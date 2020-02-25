@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="org.d3if1033.praassesment1.Segitiga">
+
+
+    <EditText
+            android:layout_width="306dp"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/alas_sgt" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="76dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:hint="@string/alas_text"
+            android:importantForAutofill="no" tools:targetApi="o"/>
+    <EditText
+            android:layout_width="311dp"
+            android:layout_height="43dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/tinggi_sgt"
+            app:layout_constraintStart_toStartOf="@+id/alas_sgt" app:layout_constraintEnd_toEndOf="@+id/alas_sgt"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/alas_sgt"
+            app:layout_constraintHorizontal_bias="0.494" android:hint="@string/tinggi_text"
+            android:importantForAutofill="no" tools:targetApi="o"/>
+    <Button
+            android:text="@string/segitiga_hasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="52dp"
+            app:layout_constraintTop_toBottomOf="@+id/tinggi_sgt" app:layout_constraintHorizontal_bias="0.498"
+            android:id="@+id/btn_sgt"/>
+    <TextView
+            android:text="@string/luassgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/luas_sgt" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="64dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sgt" app:layout_constraintHorizontal_bias="0.166"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hasil_sgt_luas" app:layout_constraintStart_toEndOf="@+id/luas_sgt"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintTop_toTopOf="@+id/luas_sgt" app:layout_constraintHorizontal_bias="0.123"
+            tools:text="textt"/>
+    <TextView
+            android:text="@string/kelilingsgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/keliling_sgt" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@+id/luas_sgt" app:layout_constraintHorizontal_bias="0.175"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hasil_keliling_sgt" app:layout_constraintStart_toEndOf="@+id/keliling_sgt"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="@+id/keliling_sgt" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="0.069" tools:text="texty"/>
+    <Button
+            android:text="@string/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_share" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="72dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.863"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
